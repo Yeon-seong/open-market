@@ -10,6 +10,60 @@
     <title>상품목록 | 호두마켓</title>
   </head>
   <body>
+    <header id="top_navigation_bar">
+      <div class="top_navigation_bar_center">
+        <div class="logo_container">
+          <a href="#">
+            <h1 class="screen_reader_only">호두마켓</h1>
+            <img
+              src="./image/LOGO_HODU.png"
+              class="logo_image"
+              alt="호두마켓 초록색 로고"
+            />
+          </a>
+          
+          <form action="" name="search" method="get" class="top_search">
+            <fieldset>
+              <legend class="screen_reader_only">호두마켓 검색창</legend>
+              <label for="top_search_input" class="screen_reader_only">상품 검색하기</label>
+              <input type="search" id="top_search_input" placeholder="상품을 검색해보세요!" />
+              <button type="submit" class="search_button">
+                <img
+                  src="./image/navigation_icon_search.svg"
+                  class="search_button_icon_image"
+                  alt="검색"
+                />
+              </button>
+            </fieldset>
+          </form>
+        </div>
+  
+        <nav id="top_navigation_container">
+          <ul class="top_navigation_list">
+            <li class="shopping_cart_link">
+              <a href="#">
+                <img
+                  src="./image/navigation_icon_shopping_cart._empty.svg"
+                  class="shopping_cart_image"
+                  alt="장바구니"
+                />
+                <p class="shopping_cart_title">장바구니</p>
+              </a>
+            </li>
+            <li class="my_page_link">
+              <a href="#">
+                <img
+                  src="./image/navigation_icon_user_empty.svg"
+                  class="my_page_image"
+                  alt="마이페이지"
+                />
+                <p class="my_page_title">마이페이지</p>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <script src="./js/product_buyer.js"></script>
   </body>
 </html>
