@@ -1,4 +1,4 @@
-@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+@import url(https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
 
 
 :root {
@@ -144,7 +144,7 @@ body {
 #main_container > .event_banner > .banner_previous_button {
   width: 10%;
   padding-right: 56px;
-  background-color: transparent; 
+  background-color: transparent;
 }
 #main_container > .event_banner > .banner_center {
   width: 80%;
@@ -167,7 +167,7 @@ body {
 .dot_button_one, .dot_button_two, .dot_button_three, .dot_button_four, .dot_button_five {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   width: 6px;
   height: 6px;
   border-radius: 12px;
