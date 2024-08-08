@@ -26,12 +26,12 @@
           <button class="login_tab_button">판매회원 로그인</button>
         </div>
 
-        <div class="login_form">
+        <form class="login_form">
           <input type="text" class="login_input" placeholder="아이디" />
-          <input type="password" class="login_input" placeholder="비밀번호" />
-          <p class="same_error_message">에러메시지</p>
+          <input type="password" class="login_input" name="password" autoComplete="off" placeholder="비밀번호" />
+          <p class="login_error_message"></p>
           <button type="submit" class="login_button">로그인</button>
-        </div>
+        </form>
 
         <div class="login_options">
           <a href="./join.html" class="option_text">회원가입</a>
