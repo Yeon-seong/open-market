@@ -12,7 +12,7 @@
 }
 body {
   font-family: 'Spoqa Han Sans Neo', 'SpoqaHanSansNeo-Regular' 'sans-serif';
-  background-color: var(--hex_white);;
+  background-color: var(--hex_white);
 }
 .screen_reader_only {
   position: absolute;
@@ -27,4 +27,16 @@ body {
 }
 .bold_font {
   font-weight: 700;
+}
+
+
+
+#logo_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logo_center .logo_image {
+  margin-top: 100px;
+  margin-bottom: 70px;
 }
