@@ -175,7 +175,8 @@ body {
   text-align: center;
   background-color: var(--hex_white);
 }
-.main_container > .event_banner > .banner_center > .banner_dot_item > li > .dot_button_one {
+.main_container > .event_banner > .banner_center > .banner_dot_item
+.dot_hover:hover {
   background-color: var(--hex_black);
 }
 .main_container > .event_banner > .banner_next_button {
