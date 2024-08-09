@@ -22,16 +22,18 @@ function createProductItem(goods) {
   productItem.className = 'product_list_center';
   productItem.innerHTML = 
   `
-    <figure class="product_figure">
-      <img src="${goods.image}" class="product_image" alt="${goods.product_name}" />
-      <figcaption class="product_store_name">${goods.store_name}</figcaption>
-    </figure>
+    <a href="https://openmarket.weniv.co.kr/products/<int:product_id>/">
+      <figure>
+        <img src="${goods.image}" class="product_image" alt="${goods.product_name}" />
+        <figcaption class="product_store_name">${goods.store_name}</figcaption>
+      </figure>
 
-    <h2 class="product_title_name">${goods.product_name}</h2>
-    <p class="product_price">
-      ${goods.price.toLocaleString()}
-      <span class="product_price_unit">원</span>
-    </p>
+      <h2 class="product_title_name">${goods.product_name}</h2>
+      <p class="product_price">
+        ${goods.price.toLocaleString()}
+        <span class="product_price_unit">원</span>
+      </p>
+    </a>
   `;
   return productItem;
 }
