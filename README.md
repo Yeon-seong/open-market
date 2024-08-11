@@ -24,7 +24,9 @@
 <br />
 
 ### 2.2 GitHub 배포 URL
-- [HODU 오픈마켓 쇼핑몰 바로가기](http://nodebird.xyz/)
+- [HODU 오픈마켓 쇼핑몰 상품 목록 페이지](https://yeon-seong.github.io/open-market/product_buyer)
+- [HODU 오픈마켓 쇼핑몰 로그인 페이지](https://yeon-seong.github.io/open-market/login)
+- [HODU 오픈마켓 쇼핑몰 장바구니 페이지](https://yeon-seong.github.io/open-market/shopping_cart)
 
 ## 3. 폴더와 파일 구조
 ```
@@ -49,10 +51,8 @@
 ```
 
 ## 4. URL 구조
-[HODU 오픈마켓 API 명세](https://paullabworkspace.notion.site/API-7b57a2b656fd4e3790a6a360b69aa3ad)
-
-접속하기/요청 URL
-- https://openmarket.weniv.co.kr/
+- [HODU 오픈마켓 API 명세](https://paullabworkspace.notion.site/API-7b57a2b656fd4e3790a6a360b69aa3ad)
+- [접속하기/요청 URL](https://openmarket.weniv.co.kr/)
 
 ## 5. 개발 일정
 ### 2024년 8월 2일 금요일 ~ 8월 12일 월요일
