@@ -22,7 +22,7 @@ function createProductItem(goods) {
   productItem.className = 'product_list_center';
   productItem.innerHTML = 
   `
-    <a href="https://openmarket.weniv.co.kr/products/<int:product_id>/">
+    <a href="/product_detail.html?product_id=${goods.product_id}/">
       <figure>
         <img src="${goods.image}" class="product_image" alt="${goods.product_name}" />
         <figcaption class="product_store_name">${goods.store_name}</figcaption>
