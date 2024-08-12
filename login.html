@@ -27,10 +27,30 @@
         </div>
 
         <form class="login_form">
-          <input type="text" class="login_input" placeholder="아이디" />
-          <input type="password" class="login_input" name="password" autoComplete="off" placeholder="비밀번호" />
+          <input
+            type="text"
+            class="login_input"
+            name="user_id"
+            value="id"
+            placeholder="아이디"
+            required
+          />
+          <input
+            type="password"
+            class="login_input"
+            name="user_password"
+            value="password"
+            autoComplete="off"
+            placeholder="비밀번호"
+            required
+          />
           <p class="login_error_message"></p>
-          <button type="submit" class="login_button">로그인</button>
+          <button
+            type="submit"
+            class="login_button"
+          >
+            로그인
+          </button>
         </form>
 
         <div class="login_options">
