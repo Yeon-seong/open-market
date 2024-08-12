@@ -24,20 +24,22 @@
 <br />
 
 ### 2.2 GitHub 배포 URL
-- [HODU 오픈마켓 쇼핑몰 바로가기](http://nodebird.xyz/)
+- [HODU 오픈마켓 쇼핑몰 상품 목록 페이지](https://yeon-seong.github.io/open-market/product_buyer)
+- [HODU 오픈마켓 쇼핑몰 로그인 페이지](https://yeon-seong.github.io/open-market/login)
+- [HODU 오픈마켓 쇼핑몰 장바구니 페이지](https://yeon-seong.github.io/open-market/shopping_cart)
 
 ## 3. 폴더와 파일 구조
 ```
 ┏ open-market(root folder)
-┣ 📂.git
-┣ 📂css
-┃ ┣ error_404.css
+┣ 📂.git                  # Github 관리 폴더 
+┣ 📂css                   # 페이지별 CSS 파일
+┃ ┣ error_404.css          |  
 ┃ ┣ login_buyer.css
-┃ ┣ product_buyer.css
+┃ ┣ product_buyer.css     | 
 ┃ ┣ reset.css
 ┃ ┗ shopping_cart.css
-┣ 📂image
-┣ 📂js
+┣ 📂image                 # git 관리 폴더 
+┣ 📂js                    # 페이지별 JavaScript 파일
 ┃ ┣ error_404.js
 ┃ ┣ login_buyer.js
 ┃ ┣ product_buyer.js
@@ -49,10 +51,8 @@
 ```
 
 ## 4. URL 구조
-[HODU 오픈마켓 API 명세](https://paullabworkspace.notion.site/API-7b57a2b656fd4e3790a6a360b69aa3ad)
-
-접속하기/요청 URL
-- https://openmarket.weniv.co.kr/
+- [HODU 오픈마켓 API 명세](https://paullabworkspace.notion.site/API-7b57a2b656fd4e3790a6a360b69aa3ad)
+- [접속하기/요청 URL](https://openmarket.weniv.co.kr/)
 
 ## 5. 개발 일정
 ### 2024년 8월 2일 금요일 ~ 8월 12일 월요일
@@ -79,6 +79,42 @@
 ┣ 📅 8월 5일
 ┃ ┣ 장바구니 페이지 html, css 제작
 ┃ ┗ 
+┃
+┃
+┣ 📅 8월 6일
+┃ ┣ 
+┃ ┗ 
+┃
+┃
+┣ 📅 8월 7일
+┃ ┣ 
+┃ ┗
+┃
+┃
+┣ 📅 8월 8일
+┃ ┣ 
+┃ ┗ 
+┃
+┃
+┣ 📅 8월 9일
+┃ ┣ 상품 목록 페이지 완성
+┃ ┗ 
+┃
+┃
+┣ 📅 8월 10일
+┃ ┣ readme.md 작성
+┃ ┗ 
+┃
+┃
+┣ 📅 8월 11일
+┃ ┣ readme.md 작성
+┃ ┗ 
+┃
+┃
+┣ 📅 8월 12일
+┃ ┣ 
+┃ ┗ 
+┃
 ┃                                                  ┃
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
