@@ -125,7 +125,7 @@ body {
 }
 
 
-.same_error_message {
+.login_error_message {
   display: none;
   margin-top: 26px;
   margin-bottom: -10px;
