@@ -33,11 +33,11 @@
 ┏ open-market(root folder)
 ┣ 📂.git                  # Github 관리 폴더 
 ┣ 📂css                   # 페이지별 CSS 파일
-┃ ┣ error404.css          #  
-┃ ┣ login_buyer.css
-┃ ┣ product_buyer.css     # 
+┃ ┣ error404.css          # 404 에러 페이지
+┃ ┣ login_buyer.css       # 로그인 페이지
+┃ ┣ product_buyer.css     # 상품 목록 페이지
 ┃ ┣ reset.css
-┃ ┗ shopping_cart.css
+┃ ┗ shopping_cart.css     # 장바구니 페이지
 ┣ 📂image                 # git 관리 폴더 
 ┣ 📂js                    # 페이지별 JavaScript 파일
 ┃ ┣ error404.js
