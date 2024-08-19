@@ -33,25 +33,25 @@
 ┏ open-market(root folder)
 ┣ 📂.git              # Github 관리 폴더
 ┣ 📂css               # 페이지별 CSS 파일
-┃ ┣ error404.css
-┃ ┣ login.css
-┃ ┣ product_buyer.css
-┃ ┣ reset.css
-┃ ┗ shopping_cart.css
+┃ ┣ error404.css      // 404 에러 페이지 css
+┃ ┣ login.css         // 로그인 css
+┃ ┣ product_buyer.css // 상품 목록 페이지 css
+┃ ┣ reset.css         // 리셋 css
+┃ ┗ shopping_cart.css // 장바구니 css
 ┣ 📂image             # 컴포넌트 src 이미지 폴더
 ┣ 📂js                # 자바스크립트 폴더
-┃ ┣ error404.js
-┃ ┣ login.js
-┃ ┣ product_buyer.js
-┃ ┗ shopping_cart.js
+┃ ┣ error404.js       // 404 에러 페이지 js
+┃ ┣ login.js          // 로그인 js
+┃ ┣ product_buyer.js  // 상품 목록 페이지 js
+┃ ┗ shopping_cart.js  // 장바구니 js
 ┣ 📂public            # favicon 이미지 폴더
-┃ ┗ favicon.ico
-┣ error404.html
-┣ login.html
-┣ product_buyer.html
-┣ product_detail.html
+┃ ┗ favicon.ico       // 페이지 헤더 파비콘
+┣ error404.html       // 404 에러 페이지 html
+┣ login.html          // 로그인 페이지 html
+┣ product_buyer.html  // 상품 목록 페이지 html
+┣ product_detail.html // 상품 상세화면 html
 ┣ README.md
-┗ shopping_cart.html
+┗ shopping_cart.html  // 장바구니 html
 ```
 
 ## 4. URL 구조
