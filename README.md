@@ -31,21 +31,20 @@
 ## 3. 폴더와 파일 구조
 ```
 ┏ open-market(root folder)
-┣ 📂.git
-┣ 📂css
+┣ 📂.git              # Github 관리 폴더
+┣ 📂css               # 페이지별 CSS 파일
 ┃ ┣ error404.css
 ┃ ┣ login.css
 ┃ ┣ product_buyer.css
 ┃ ┣ reset.css
 ┃ ┗ shopping_cart.css
-┣ 📂image
-┣ 📂js
+┣ 📂image             # 컴포넌트 src 이미지 폴더
+┣ 📂js                # 자바스크립트 폴더
 ┃ ┣ error404.js
 ┃ ┣ login.js
 ┃ ┣ product_buyer.js
 ┃ ┗ shopping_cart.js
-┣ 📂pages
-┣ 📂public
+┣ 📂public            # favicon 이미지 폴더
 ┃ ┗ favicon.ico
 ┣ error404.html
 ┣ login.html
