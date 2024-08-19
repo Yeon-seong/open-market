@@ -31,22 +31,27 @@
 ## 3. 폴더와 파일 구조
 ```
 ┏ open-market(root folder)
-┣ 📂.git                  # Github 관리 폴더 
-┣ 📂css                   # 페이지별 CSS 파일
-┃ ┣ error404.css          # 404 에러 페이지
-┃ ┣ login_buyer.css       # 로그인 페이지
-┃ ┣ product_buyer.css     # 상품 목록 페이지
+┣ 📂.git
+┣ 📂css
+┃ ┣ error404.css
+┃ ┣ login.css
+┃ ┣ product_buyer.css
 ┃ ┣ reset.css
-┃ ┗ shopping_cart.css     # 장바구니 페이지
-┣ 📂image                 # git 관리 폴더 
-┣ 📂js                    # 페이지별 JavaScript 파일
+┃ ┗ shopping_cart.css
+┣ 📂image
+┣ 📂js
 ┃ ┣ error404.js
-┃ ┣ login_buyer.js
+┃ ┣ login.js
 ┃ ┣ product_buyer.js
 ┃ ┗ shopping_cart.js
+┣ 📂pages
+┣ 📂public
+┃ ┗ favicon.ico
 ┣ error404.html
-┣ login_buyer.html
+┣ login.html
 ┣ product_buyer.html
+┣ product_detail.html
+┣ README.md
 ┗ shopping_cart.html
 ```
 
@@ -56,6 +61,3 @@
 
 ## 5. 개발 일정
 ### 2024년 8월 2일 금요일 ~ 8월 12일 월요일
-
-+ 추후 SPA나 React로 리팩토링 예정
-```
